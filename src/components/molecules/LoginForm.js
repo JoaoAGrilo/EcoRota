@@ -8,7 +8,7 @@ const LoginForm = () => {
     <View style={style.container}>
       <TextInput style={style.textInput} placeholder=" Email"/>
       <TextInput placeholder=" Senha"/>
-      <Button onPress={() => console.warn("Olá função")} buttonText={"Entrar"} />
+      <Button onPress={() => console.warn("Olá função")}>Entrar</Button>
     </View>
   )
 }
