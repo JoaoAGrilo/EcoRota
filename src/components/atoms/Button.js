@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, TouchableOpacity, StyleSheet } from "react-native";
 
-export default props => {
+export default (props) => {
     return (
         <TouchableOpacity style={style.button} onPress={props.onPress}><Text style={style.buttonText}>{props.children}</Text></TouchableOpacity>
     )

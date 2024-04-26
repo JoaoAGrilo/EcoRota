@@ -1,17 +1,18 @@
 import React from "react";
 import { View, StyleSheet } from "react-native"
 import Button from "../atoms/Button";
-import TextInput from "../atoms/TextInput";
+import TextInput from "../atoms/IconTextInput";
 
-const LoginForm = () => {
+const LoginForm = props => {
   return (
     <View style={style.container}>
       <TextInput style={style.textInput} placeholder=" Email"/>
-      <TextInput placeholder=" Senha"/>
-      <Button onPress={() => console.warn("Olá função")}>Entrar</Button>
+      <TextInput placeholder=" Senha" leftIcon='mail' rightIcon='lock'/>
+      <Button onPress={() => props.navigation.navigate('Home')} children="Entrar"/>
     </View>
   )
 }
+
 
 export default LoginForm
 

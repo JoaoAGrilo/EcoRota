@@ -1,7 +1,7 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import Welcome from "../pages/Welcome";
-import LoginScreen from "../pages/Login";
+import LoginScreen from "../pages/UserLogin";
 import Home from "../pages/Home";
 import MapRender from "../pages/MapRender";
 

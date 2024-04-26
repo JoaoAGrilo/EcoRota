@@ -20,7 +20,7 @@ const SvgMailIcon = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M18.333 5 10 10.833 1.667 5" 
+      d="M18.333 5 10 10.833 1.667 5"
     />
   </Svg>
 )
